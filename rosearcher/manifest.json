@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [ {
+      "css": [ "styles.css" ],
+      "js": [ "plugin.js" ],
+      "matches": [ "*://*.roblox.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Search through the game servers for a player!",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAldhp69dSXh7lcfzDnMAkV+SZ90XSFwLFt8eUXFOXx1nSiV0n8+nmicB0WVLhHiHsmbGMGAcQil+Hr3dK8273uOgx5dDunaaCQAaOg6F4dgt3jxBEtGvMjpHuH9mPJUXu3MraYax7F6qdFJ8vVQdo67339OSc4b8DpYFDaE7LldPOg5iPuMjhjEbc9WvCQTvNmYOvkceULiC9h6F18MwmRJB1nkdaE0UzCt9yQgWLz4OZopixB0OF2kPM/VBtn5ySEKGRhnhsw+DqKSisDdDRlFnyGP/iIEX8G2pfiG7wW+YLy2uY7UjlgSjmQa2cTm8Qye50c9PUp9hVYaUjIpx61QIDAQAB",
+   "manifest_version": 2,
+   "name": "RoSearcher",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}
